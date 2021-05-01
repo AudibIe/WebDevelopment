@@ -1,0 +1,26 @@
+/* To create space between each td box */
+td {
+	width: 100px;
+	height: 100px;
+}
+
+/* On every second td box in each row, this will create a line to it's right and a line to it's left */
+td:nth-of-type(2) {
+	border-right: 1px solid black; 
+	border-left: 1px solid black;
+}
+
+/* this class was assigned to all tds in the second row. Is used to create an upper and bottom line */
+.horizontal {
+	border-top:  1px solid black;
+	border-bottom: 1px solid black;
+}
+
+/* This is used for the whole table to resize when needed */
+table {
+	margin: auto;
+}
+
+h3 {
+	text-align: center;
+}

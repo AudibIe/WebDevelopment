@@ -1,0 +1,188 @@
+HTML+ Tab to start intro
+---------------------------------------------------------------------------------
+
+First open sublime and sabe a document as .html so it recognised html programming
+---------------------------------------------------------------------------------
+For comments
+
+<!-- --> or ctrl+/
+
+---------------------------------------------------------------------------------
+For opening elemnt is:
+<>
+For closing element is:
+</>
+
+---------------------------------------------------------------------------------
+Headings can go from H1 to H6
+H1 is most important-----> H6
+
+---------------------------------------------------------------------------------
+
+Front end development
+The server
+---------------------------------------------------------------------------------
+
+Back End development
+The Kitchen
+---------------------------------------------------------------------------------
+
+In line elements
+Same lines
+---------------------------------------------------------------------------------
+Block level elements
+Use their own line *ex P and  H tags.
+---------------------------------------------------------------------------------
+To highligh italizise
+
+Strong, I, or em for emphasise can be used.
+---------------------------------------------------------------------------------
+How to create a list
+
+-use the Ol or UL tag
+-every separate item needs to be inside the li tag
+-One can create sub lists inside a list 
+---------------------------------------------------------------------------------
+What is a div
+
+Tag to group content in a *box*
+---------------------------------------------------------------------------------
+An attribute extends a tag, changing its behavior or providing metadata. An attribute always has the form name=value 
+(the attribute's identifier followed by its associated value).
+---------------------------------------------------------------------------------
+ctr+shift+D
+
+---------------------------------------------------------------------------------
+How to make a reference to another link or another html page.
+
+Use attribute <a href="">sdfasdfasdf</a>
+---------------------------------------------------------------------------------
+How to add a picture
+Use attribute <img src="">
+It can either have a link inside or the name of the document inside the computer
+---------------------------------------------------------------------------------
+How to create a table
+Tr is for every row
+for a heading one can create a separate row with the th elements instead of td
+Heading goes into thead element. The rest goes into tbody elemnt
+Use tag <table border="1">
+<thead>
+ <tr>
+  <th>Name</th>
+  <th>Age</th>
+ </tr>
+</head>
+ <tbody>
+  <tr>
+   <td> content</td>
+  </tr>
+ <tr>
+  <td> conent</td>
+ </tr>
+ </tbody>
+</table>
+
+---------------------------------------------------------------------------------
+Action send
+Method request.
+
+---------------------------------------------------------------------------------
+What is a form?
+
+A container which puts the inputs together
+
+---------------------------------------------------------------------------------
+How to create an input?
+
+-use input tag+type attribute= " color, text,date, files
+-checkbox, password, email".
+-One can find input attribute types in MDN
+
+---------------------------------------------------------------------------------
+How to create a button?
+
+Use tag button
+
+---------------------------------------------------------------------------------
+What is Placeholder?
+
+Puts some text inside the input to provide descritpion
+ex. <input type= "text" placeholder="username">
+
+---------------------------------------------------------------------------------
+If one give the input a name, the information given in the
+input is then passed through the url.
+ex.<input name="username" type="text" placeholder="username">
+
+---------------------------------------------------------------------------------
+What is a label?
+
+Used for the system to label inputs
+One can open a label tag and put all the input programming in
+ex. <label>
+       username:
+       <input type="text" placeholder="username">
+    </label>
+
+Or one can do a label speficifing a connection within input
+ex. <label for="username">username:</label>
+<input id="password" type="password" placeholder="password">
+
+---------------------------------------------------------------------------------
+What is validation?
+
+-A validation enforces an action.
+-For exame the password has to be at least 10 letters.The email has to be entered.
+-One can add a validation by adding the attribute required=true. Tthey system now
+will require the information. Doesnt' work on every browser. Presence validation
+(Makes sure something is required)
+
+
+---------------------------------------------------------------------------------
+What is the difference of a radio button and a checkbox?
+-A checkbox can be untickled while a radio button not. Radio buttons are regurly
+used to when there is only one option while checkboxes are used when there is more
+than one.
+-They are set up with input type.
+
+---------------------------------------------------------------------------------
+How does a radio button work?
+
+-One needs to label it.
+-One has to put the same name to all the inputs of choice, so the system know is
+either this or the other choice. 
+-One has to specify a value attribute, which is technically the same as the label
+---------------------------------------------------------------------------------
+What is a select tag?
+
+-A select tag is used withing tags of options inside.
+-It gives the option to user to choose in a dropdown menu.
+-One doesn't have to set up a value as with a radio button but one can to receive 
+different information than the actual in the option element.
+-One has to put a name to it example: <select name= "color">
+-Can go inside the same form tag of a radio tag option.
+
+---------------------------------------------------------------------------------
+How can one add a text area for something like a resume or a bio?
+
+-One can use the text are tag.
+-One can define the size by adding in the tag opening the rows and cols attribute.
+---------------------------------------------------------------------------------
+What is a name?
+
+Is used as an attribute so the infortation is sent.
+
+---------------------------------------------------------------------------------
+Air driven code: code that doesn't work but we make it work later.
+---------------------------------------------------------------------------------
+To give color to a background one can use the background element.  One can set upa picture or color.
+To make a border one can use the border element. It is composed of width, color and style which can be solid.
+---------------------------------------------------------------------------------
+Ids can only appear once in a page. They are made to specify.
+#le dice a css que se habla de un ID
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------

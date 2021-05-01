@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Login Template</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+	<label for="First Name">First Name: </label>
+	<input id="First Name" type="text" name="First Name" placeholder="First Name" required>
+	<label for:Last Name>Last Name: </label>
+	<input id="Last Name" type="text" name="LastName" placeholder="Last Name" required>
+
+	<div>
+		<label for="Male">Male </label>
+		<input id="Male" type="radio" name="GenderChoice" value="Male">
+		<label for="Female">Female </label>
+		<input id="Female" type="radio" name="GenderChoice" value="Female">
+		<label for="other">Other </label>
+		<input id="other" type="radio" name="GenderChoice" value="Other">
+    </div>
+	
+    <div>
+    	<label for="Email">Email: </label>
+		<input id="Email" type="Email" name="Email" placeholder="Your email" required>
+		<label for="Password">Password </label>
+		<input id="Password" type="Password" name="Password" placeholder="Your Password" required  title="Password must be 5 to 10 characters" pattern=".{5, 10}">
+    </div>
+
+    <div required>
+    	Birthday
+		<select name="Month" required>
+			<option>Month</option>
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+		</select>
+		<select name="Day" required>
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<select name="Year" required>
+			<option>Year</option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+		</select>
+
+	</div>
+
+	<div>
+		<label for="Yes"> I agree to the terms and conditions</label>
+		<input id="Yes" type="checkbox" name="Terms and conditions" required>
+	</div>
+	
+
+	<div>
+		<button>Submit</button>
+	</div>
+	
+
+</form>
+
+</body>
+</html>

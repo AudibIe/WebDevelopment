@@ -1,0 +1,80 @@
+/* Body background will be this color */
+body {
+	background: #bdc3c7;
+}
+
+/* All h1's will be this color */
+h1 {
+	color: #9b59b6;
+}
+
+/* All h2's will be this color */
+h2 {
+	color: orange;
+}
+
+/* All lists will be this color */
+li {
+	color: #5567ed;
+}
+
+/* All paragrahps will have this background color */
+p {
+	background: yellow;
+}
+
+/* Input's will have a border of size 3 and will be solid red */
+input {
+	border: 3px red solid; 
+}
+
+.hello {
+	background: rgb(255, 255, 255);
+}
+
+#special {
+	border: 2px dotted rgb(235, 135, 222);
+}
+
+
+div p {
+	font-size: 25px;
+}
+
+/* Inputs of type text will have a gray background */
+input [type="text"] {
+	background: rgb(128, 128, 128);
+}
+
+div:nth-of-type(3) p {
+	background: pink;
+}
+
+/* Second paragraph in third div will have a white solid border */
+div:nth-of-type(3) p:nth-of-type(2) {
+	border: 5px solid white;
+}
+
+div:nth-of-type(3) em {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+}
+
+input: checked {
+	margin-left: 50px;
+}
+
+#special: first-letter {
+	color: green;
+	font-size: 100px;
+}
+
+/* When the mouse is on top of an h1, it will turn blue */
+h1:hover {
+	color: blue;
+}
+
+/* After visiting the link, it will turn grey */
+a:visited {
+	color: gray;
+}

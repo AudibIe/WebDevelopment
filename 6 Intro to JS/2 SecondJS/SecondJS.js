@@ -1,0 +1,5 @@
+var userNameFirst = prompt("What is your First Name?")
+var userNameLast = prompt("What is your Last Name?")
+var userAge = prompt("What is your Age?")
+alert ("Hey " + userNameFirst + " " + userNameLast + "! " + "As you are over " + userAge + " you are able to access the website. Enjoy!")
+console.log ("You are " + userAge)	

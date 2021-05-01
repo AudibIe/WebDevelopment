@@ -1,0 +1,29 @@
+body {
+	background: url(https://images.unsplash.com/photo-1526779259212-939e64788e3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
+	background-size: cover; /*To put the image as a whole*/
+	background-position: center; /*To put the image as a whole*/
+	font-family: lato;
+	color: white; /*nothing else is affected here because the other code is more specific in this case. If not, an specif h1 command with color can be made*/
+}
+
+html {
+	height: 100%; /*To put the image as a whole*/
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.4);
+}
+h1 {
+	font-weight: 700px;
+	font-size: 5em;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid #0000.2
+}
